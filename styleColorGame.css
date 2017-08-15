@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+    margin: 0;
+
+}
+h1{
+    color: darkgray;
+    text-align: center;
+    background-color: blue;
+    font-weight: normal;
+    text-transform: UPPERCASE;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 5px 0;
+}
+.square{
+    width: 30%;
+    border-radius: 10%;
+    background: aliceblue;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    height: 30%;
+    transition: background 0.7s;
+}
+#container{
+    max-width: 600px;
+    margin: 0 auto; /*for putting in middle*/
+}
+
+span{
+    color: darkgray;
+    font-size: 17px;
+}
+
+#trail{
+    background-color: whitesmoke;
+    text-align: center;
+    
+    height: 30px;
+
+    margin: 0 auto;
+}
+.selected{
+    background-color: blue;
+    color: darkgray;
+}
+#colorDisplay{
+    font-size: 200%;
+}
+button{
+    background-color: whitesmoke;
+    border: 0px;
+    font-weight: bold;
+    height: 100%;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: blue;
+    transition: all 0.5s ;
+    border-radius: 5%;
+}
+#span{
+    display: inline-block;
+    width: 20%;
+}
+
+button:hover{
+    color: darkgray;
+    background-color: blue;
+}
